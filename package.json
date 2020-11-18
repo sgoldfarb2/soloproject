@@ -1,0 +1,48 @@
+{
+  "name": "soloproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node server/server.js",
+    "build": "NODE_ENV=production webpack",
+    "dev": "NODE_ENV=development nodemon server/server.js & webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgoldfarb2/soloproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgoldfarb2/soloproject/issues"
+  },
+  "homepage": "https://github.com/sgoldfarb2/soloproject#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "axios": "^0.21.0",
+    "babel-loader": "^8.2.1",
+    "boostrap": "^2.0.0",
+    "bootstrap-react": "^0.5.0-alpha.12",
+    "css-loader": "^5.0.1",
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.6",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "express": "^4.17.1",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^17.0.1",
+    "sass": "^1.29.0"
+  }
+}
